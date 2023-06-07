@@ -1,4 +1,4 @@
-import discord #MTExNDcyMjM3MDY2NjYyNzEzMg.GlYMZ1.QeWvurQtAwOfZbwg1qJgUR-tplrET8VKc4CbyU
+import discord 
 from discord.ext import commands
 import time
 import typing
@@ -31,4 +31,4 @@ async def kick(ctx, member : discord.Member, *, reason=None):
 async def ban(ctx, member : discord.Member, *, reason=None):
     await member.ban(reason=reason)
 
-Gilbert27.run("MTExNDcyMjM3MDY2NjYyNzEzMg.GXVSuF.YlJ85I5fvapsce5ATs4DOLeCWPOHxAEsGVeBPg")
+Gilbert27.run("token")
